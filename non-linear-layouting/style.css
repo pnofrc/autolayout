@@ -1,0 +1,85 @@
+@media print {
+	/* Define the size of the pages and layout settings */
+
+	@page {
+		size: 148mm 210mm;
+		marks: crop cross;
+		margin: 15mm;
+	}
+
+	/* Custom font */
+
+	@font-face {
+		font-family: "neuzeit";
+		src: url("./fonts/NeuzeitOffice-Regular.ttf");
+	}
+
+	@font-face {
+		font-family: "fivo";
+		src: url("./fonts/fivo-sans.medium.otf");
+	}
+
+	/* Custom variables */
+
+	:root {
+		--first: #19b7b9;
+		--second: #0b1136;
+		--third: #2e4473;
+	}
+
+	/* Rules for everything */
+
+	body {
+		font-family: "neuzeit";
+		font-size: 20px;
+		line-height: 35px;
+	}
+
+    /* Rules for the rest */
+
+    .contents{
+        break-before: left
+    }
+
+	div {
+		box-sizing: border-box;
+	}
+
+	span {
+		color: white;
+	}
+
+	/* Rules for dots */
+
+	.dot {
+		color: var(--third);
+	}
+
+	/* Rules for Part Of Speech (POS), defined in classes in <span> */
+	/* This case, conjunctions + verbs ) */
+
+	span.CC {
+		font-size: 3vw;
+		color: var(--first);
+	}
+
+	span.VB {
+		color: var(--second);
+	}
+	span.VBD {
+		color: var(--second);
+	}
+	span.VBG {
+		color: var(--second);
+	}
+	span.VBN {
+		color: var(--second);
+	}
+	span.VBP {
+		color: var(--second);
+	}
+	span.VBZ {
+		color: var(--second);
+	}
+}
+
