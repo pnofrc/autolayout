@@ -1,3 +1,12 @@
+Thanks OSP!
+
+http://osp.kitchen/tools/ether2html/
+
+>>>
+
+
+
+
 Content of the pad markdown boilerplate, for copy/paste or reference
 
 ----
@@ -56,13 +65,13 @@ Content of the pad CSS boilerplate, for copy/paste or reference
 body {
     font-size: 12pt;
     line-height: 1.2em;
-    font-family: 'alfphabet-iii', sans-serif;
+    font-family: arial, sans-serif;
 }
 
 h1 {
     font-size: 30pt;
     page-break-before: always;
-    font-family: 'alfphabet-iv';
+    font-family: monaco;
     font-weight: normal;
 }
 
@@ -92,7 +101,7 @@ a:after {
 }
 
 code {
-    font-family: 'notcourier';
+    font-family: 'courier';
 }
 
 @page {
@@ -101,13 +110,13 @@ code {
 }
 
 @page :left {
-    margin: 50mm 50mm;
+    margin: 25mm 25mm;
     @left-middle{
-    content: "A title";
+    content: "spinach";
     transform: rotate(-90deg);
     }
     @top-center {
-    content: "Another title";
+    content: "magic";
     }
     @top-left-corner {
     content: counter(page);
@@ -117,13 +126,13 @@ code {
 }
 
 @page :right {
-    margin: 50mm 50mm;
+    margin: 25mm 25mm;
     @right-middle{
-    content: "Special Issue XI";
+    content: "(A)";
     transform: rotate(90deg);
     }
     @top-center {
-    content: "Again a title";
+    content: "chaos";
     }
     @top-right-corner {
     transform: rotate(90deg);
@@ -148,21 +157,34 @@ code {
     }
 }
 
-/* Even if brutal, fonts could be embedded directly from remote source */
-/* As Ether2html is a way to do publications, not website */
 
-@font-face {
-font-family: "notcourier";
-src: url("http://osp.kitchen/api/osp.foundry.notcouriersans/9fff7fd811e6982a46b88f7772fa9768b03c6003/blob-data/NotCourierSans.ttf");
-}
 
-@font-face {
-font-family: "alfphabet-iv";
-src: url("http://osp.kitchen/api/osp.foundry.alfphabet/53301035a44a724592c06018a5d5cfb59eee6fd8/blob-data/Alfphabet-IV.otf");
-}
 
-@font-face {
-font-family: "alfphabet-iii";
-src: url("
-http://osp.kitchen/api/osp.foundry.alfphabet/78cab074aa56a4e3f7c7d0b10aaf6cd14dca9fad/blob-data/Alfphabet-III.otf");
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

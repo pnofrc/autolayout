@@ -1,0 +1,71 @@
+@media print {
+    /* Define the size of the pages and layout settings */
+    @page {
+        size: 148mm 210mm;
+        margin: 15mm;
+    }
+    /* Custom font */
+    @font-face {
+        font-family: "";
+        src: url("");
+    }
+    /* Custom variables */
+     :root {
+        --first: #19b7b9;
+        --second: #0b1136;
+        --third: #2e4473;
+    }
+    /* Rules for everything */
+    body {
+        font-family: "";
+        font-size: 20px;
+        line-height: 35px;
+    }
+    /* Rules for the rest */
+    .contents {
+        break-before: left
+    }
+    div {
+        box-sizing: border-box;
+    }
+    span {
+        color: white;
+    }
+    /* Rules for dots */
+    .dot {
+        color: var(--third);
+    }
+    /* Rules for Part Of Speech (POS), defined in classes in <span> */
+    /* This case, conjunctions + verbs ) */
+    span.NN {
+        background-color: salmon;
+        color: rgba(0, 0, 0, 0);
+    }
+    span.CC {
+        color: var(--first);
+    }
+    span.VB {
+        font-size: 3vw;
+        color: var(--second);
+    }
+    span.VBD {
+        font-size: 3vw;
+        color: var(--second);
+    }
+    span.VBG {
+        font-size: 3vw;
+        color: var(--second);
+    }
+    span.VBN {
+        font-size: 3vw;
+        color: var(--second);
+    }
+    span.VBP {
+        font-size: 3vw;
+        color: var(--second);
+    }
+    span.VBZ {
+        font-size: 3vw;
+        color: var(--second);
+    }
+}

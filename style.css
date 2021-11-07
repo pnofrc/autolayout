@@ -1,0 +1,47 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: navy;
+    font-size: 3vw;
+    filter: blur(2px);
+}
+
+a:hover {
+    text-decoration: underline;
+    filter: none;
+}
+
+h1 {
+    font-size: 5vw;
+    color: lightblue;
+    filter: blur(2px);
+}
+
+h1 a {
+    font-size: 5vw;
+    color: lightblue;
+    filter: blur(2px);
+}
+
+h1:hover {
+    filter: none;
+}
+
+h2 {
+    font-size: 4vw;
+    color: aqua;
+    filter: blur(3px);
+}
+
+h2:hover {
+    filter: none;
+    text-decoration: none;
+}
+
+div {
+    margin: 5vw;
+}

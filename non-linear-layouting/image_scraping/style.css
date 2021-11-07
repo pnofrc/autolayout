@@ -1,0 +1,35 @@
+@media print {
+    /* Define the size of the pages and layout settings */
+    @page {
+        size: 148mm 210mm;
+        margin: 15mm;
+    }
+    /* Custom fonts */
+    @font-face {
+        font-family: "";
+        src: url("");
+    }
+    /* Custom variables */
+     :root {}
+    /* Rules for everything */
+    body {
+        font-family: "courier";
+        font-size: 40px;
+        line-height: 36px;
+    }
+    /* Rules for the rest */
+    .contents {
+        break-before: right;
+    }
+    div {
+        box-sizing: border-box;
+    }
+    img {
+        margin: 0 1ch;
+        height: 45px;
+        vertical-align: middle;
+    }
+    span {
+        break-after: none;
+    }
+}
